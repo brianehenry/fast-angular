@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FastAngularComponent } from './fast-angular.component';
+import { FastButtonComponent } from './fast-button.component';
 
-describe('FastAngularComponent', () => {
-  let component: FastAngularComponent;
-  let fixture: ComponentFixture<FastAngularComponent>;
+describe('FastButtonComponent', () => {
+  let component: FastButtonComponent;
+  let fixture: ComponentFixture<FastButtonComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FastAngularComponent ]
+      declarations: [ FastButtonComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FastAngularComponent);
+    fixture = TestBed.createComponent(FastButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

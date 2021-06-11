@@ -3,12 +3,17 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^12.0.4",
-    "@angular/core": "^12.0.4"
-  },
-  "dependencies": {
+    "@angular/core": "^12.0.4",
     "@microsoft/fast-components": "^1.21.5",
     "@microsoft/fast-element": "^1.4.0",
-    "lodash-es": "^4.17.21",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@microsoft/fast-components": "^1.21.5",
+    "@microsoft/fast-element": "^1.4.0",
+    "lodash-es": "^4.17.21"
+  },
+  "dependencies": {
     "tslib": "^2.1.0"
   }
 }

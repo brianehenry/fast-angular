@@ -111,6 +111,11 @@
       "root": "projects/fast-angular",
       "sourceRoot": "projects/fast-angular/src",
       "prefix": "lib",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
